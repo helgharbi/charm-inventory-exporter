@@ -1,9 +1,4 @@
 type: charm
-parts:
-  charm:
-    source: src
-    plugin: reactive
-    build-snaps: [charm]
 bases:
     - build-on:
         - name: ubuntu
